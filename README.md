@@ -1,7 +1,7 @@
 ### Hi there 👋
 ![MasterHead](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)]
 - [ ] <h1 align="center">Hi 👋, I'm AmbatiBhargavi</h1>
-- [ ] <img align="right" alt="Coding" width="400" src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FAnmol-Baranwal%2FCool-GIFs-For-GitHub&psig=AOvVaw04RAxVec2IGfbnP_-xPM2W&ust=1724761226724000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqGAoTCPDE3NbSkogDFQAAAAAdAAAAABCgAQ'>
+- [ ] <img align="right" alt="Coding" width="400" src='https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif'>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ambatibhargavi&label=Profile%20views&color=0e75b6&style=flat" alt="ambatibhargavi" /> </p>
 
