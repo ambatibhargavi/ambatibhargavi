@@ -1,0 +1,74 @@
+name: GitHub Readme Medium Posts
+
+on:
+  schedule:
+    # Runs every hour, on the hour
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow the job to commit to the repository
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          npm install axios
+
+      - name: Fetch Medium posts and update README
+        run: |
+          # Fetch your Medium posts from the RSS feed
+          const axios = require('axios');
+          const fs = require('fs');
+          const parser = require('xml2js').parseString;
+
+          // Replace with your actual Medium RSS feed URL
+          const feedUrl = 'https://medium.com/@ambatibhargavi';
+
+          axios.get(feedUrl)
+            .then(response => {
+              parser(response.data, (err, result) => {
+                if (err) {
+                  console.error('Error parsing XML:', err);
+                  return;
+                }
+
+                // Extract the latest posts from the feed
+                const posts = result.rss.channel[0].item.map(item => ({
+                  title: item.title[0],
+                  link: item.link[0]
+                }));
+
+                // Read the README file
+                let readme = fs.readFileSync('README.md', 'utf-8');
+
+                // Create the new content for the Medium posts section
+                const newContent = `### Latest Medium Posts\n${posts.map(post => `- [${post.title}](${post.link})`).join('\n')}`;
+
+                // Replace or append the posts section in the README
+                readme = readme.replace(/### Latest Medium Posts[\s\S]*?###/, newContent);
+
+                // Save the updated README file
+                fs.writeFileSync('README.md', readme);
+
+                console.log('Updated README.md with latest Medium posts.');
+              });
+            })
+            .catch(err => console.error('Error fetching Medium posts:', err));
+
+      - name: Commit and Push changes to README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with latest Medium posts"
+          git push
