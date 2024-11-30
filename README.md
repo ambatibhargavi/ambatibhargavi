@@ -1,4 +1,4 @@
-<h3 align="left"> Welcome to My GitHub Profile!<br>Hello! I'm Ambati Bhargavi, a passionate DevOps Engineer with expertise in building scalable systems, containerized applications, and integrating cutting-edge Large Language Models (LLMs). I'm always keen on learning and implementing the latest technologies.</h3>
+<h3 align="left">🌟 Welcome to My GitHub Profile!<br>Hello! I'm Ambati Bhargavi, a passionate DevOps Engineer with expertise in building scalable systems, containerized applications, and integrating cutting-edge Large Language Models (LLMs). I'm always keen on learning and implementing the latest technologies.</h3>
 
 ###
 
@@ -73,5 +73,11 @@
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/ambatibhargavi/ambatibhargavi/output/snake.svg" alt="Snake animation" />
+
+###
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ambatibhargavi.ambatibhargavi&right_color=royalblue&left_text=Profile%20Views"  />
+</div>
 
 ###
