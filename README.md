@@ -37,8 +37,8 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=aws,terraform,jenkins,html,css,github,git," />
-    <img src="https://skillicons.dev/icons?i=azure,python,gcp,grafana,kubernetes,nginx,c,java,bash,docker,flask" /><br>
+    <img src="https://skillicons.dev/icons?i=aws,terraform,jenkins,html,dynamodb,github,git," />
+    <img src="https://skillicons.dev/icons?i=azure,python,gcp,grafana,kubernetes,nginx,c,java,bash,css,docker,flask" /><br>
 </div>
 
 <br/>
