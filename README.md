@@ -1,3 +1,6 @@
+<img src="banner_github.png" alt="GitHub Banner" width="100%" />
+
+
 # 💫 About Me:
 👋 Hi, I'm Ambati Bhargavi!<br>🚀 DevOps | Cloud | Automation<br><br>🔭 Currently working as a DevOps Engineer, focusing on Cloud, CI/CD, Kubernetes, and Automation.<br><br>📚 Exploring OpenTelemetry, ArgoCD, and scalable observability solutions.<br><br>⚡ Passionate about building cloud-native solutions, optimizing infrastructure, and sharing knowledge.<br><br>✍️ I write about DevOps, cloud computing, and automation on my blog.
 
