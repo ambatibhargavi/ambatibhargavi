@@ -1,4 +1,4 @@
-<img src="2d06114161bffab75c3582523b467a9b.gif" alt="GitHub Banner" width="100%" />
+<img src="banner.gif" alt="GitHub Banner" width="100%" />
 
 
 # 💫 About Me:
