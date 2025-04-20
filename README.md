@@ -18,15 +18,19 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ambatibhargavi&theme=onedark&no-frame=false&no-bg=true&margin-w=4)
 
-# 💻 Featured YouTube Videos
-<!-- BEGIN YOUTUBE-CARDS -->
-
-<!-- END YOUTUBE-CARDS -->
-
 
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ambatibhargavi&limit=5&theme=radical&combine_all_yearly_contributions=true)
+
+---
+
+# 💻 Featured YouTube Videos
+<!-- BEGIN YOUTUBE-CARDS -->
+[![15 Linux Commands Every Beginner Must Know](https://ytcards.demolab.com/?id=zJEczglpABg&title=15+Linux+Commands+Every+Beginner+Must+Know&lang=en&timestamp=1744914600&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=436 "15 Linux Commands Every Beginner Must Know")](https://youtu.be/zJEczglpABg?si=oAGo2_1RcvweSRgE)
+[![Enhancement of Github Profile](https://ytcards.demolab.com/?id=EdNNJZOx1Ck&title=Enhancement+of+Github+Profile&lang=en&timestamp=1744223400&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=380 "Enhancement of Github Profile")](https://youtu.be/EdNNJZOx1Ck?si=Xx7BOUKGxMzN6ALv)
+
+<!-- END YOUTUBE-CARDS -->
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ambatibhargavi&icon=0&color=0)](https://visitcount.itsvg.in)
